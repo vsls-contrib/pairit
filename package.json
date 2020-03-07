@@ -1,0 +1,29 @@
+ {
+	"name": "pairit",
+	"displayName": "PairIt",
+	"description": "An extension to facilitate pair/mob programming over Visual Studio Live Share",
+	"publisher": "microsoft",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./"
+	},
+	"dependencies": {
+		"vsls": "^1.0.1526"
+	},
+	"devDependencies": {
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.42.0",
+		"typescript": "^3.7.5"
+	}
+}
