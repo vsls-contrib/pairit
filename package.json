@@ -19,7 +19,7 @@
 		"compile": "tsc -p ./"
 	},
 	"dependencies": {
-		"vsls": "^1.0.1526"
+		"vsls": "0.3.1291"
 	},
 	"devDependencies": {
 		"@types/node": "^12.11.7",
